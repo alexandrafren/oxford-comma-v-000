@@ -6,4 +6,7 @@ def oxford_comma(array)
    array.push("and")
    array.push(holder_array)
    array.join(" ")
+ else
+   false
+ end
 end
