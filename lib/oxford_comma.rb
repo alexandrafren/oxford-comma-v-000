@@ -11,5 +11,7 @@ def oxford_comma(array)
    array.push("and")
    oxford_comma = array.join(", ")
    oxford_comma << holder_array
+ else
+   false
  end
 end
