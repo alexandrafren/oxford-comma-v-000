@@ -1,6 +1,6 @@
 def oxford_comma(array)
  if array.length <= 1
-   return arrary.join
+   return array.join
  elsif array.length = 2
    holder_array = array.pop
    array.push("and")
